@@ -14,7 +14,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
     - name: Create pull request
-      uses: Obmondo/github-action-obmondo-deploy@main
+      uses: anantdevsh/github-action-obmondo-deploy@main
       env:
         API_TOKEN_GITHUB: ${{ env.GITHUB_TOKEN }}
         OBMONDO_DEPLOY_REPO_TARGET: ${{ env.OBMONDO_DEPLOY_REPO_TARGET }}
